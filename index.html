@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stone Collector</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        
+        <h1>Infinity Stone Collector</h1>
+        
+        <div class="instructions">
+             <h3>Can you collect the Infinity Stones before Thanos does?</h3>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are 4 Infinity Stones below. By clicking on a stone you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to the random number displayed. If your total score  exceeds the random number total you lose the game and Thanos wipes out humanity.</p>
+            <p>The value of each stone is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the value of each stone, goodluck!</p>
+        </div>
+
+        <div class="number-display">
+            <h2>Number To Match:<span id="randomNumber"></span></h2>
+        </div>
+
+        <div class="wins-losses">
+            <h2>Wins: <span id="winsText"></span></h2>
+            
+            <h2>Losses: <span id="loseText"></span></h2>
+        </div>
+
+        <div class="stones">
+            <img id="blue-stone" src="assets/images/blue-stone.jpg" alt="Blue Stone">
+            <img id="red-stone" src="assets/images/red-stone.jpg" alt="Red Stone">
+            <img id="yellow-stone" src="assets/images/yellow-stone.jpg" alt="Yellow Stone">
+            <img id="green-stone" src="assets/images/green-stone.jpg" alt="Green Stone">
+        </div>
+
+        <div class="userTotal">
+            <h2>Your total score is: <span id="totalScore"></span></h2>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>
