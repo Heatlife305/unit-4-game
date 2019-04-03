@@ -1,33 +1,39 @@
-html, body {
-    background-image: url(assets/images/stone-war.jpg);
-    height: 100%;
+body {
+    background-image: url(../../assets/images/thanos-pic.png);
 }
 
 h1 {
     padding: 10px;
     width: 30%;
-    border: 2px solid black;
-    background: blue;
+    border: 2px solid white;
+    background: purple;
     color: white;
     font-size: 40px;
     font-weight: bold;
     font-family: fantasy;
     text-align: center;
     margin-left: 36%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .instructions {
     padding: 10px;
     width: 80%;
-    background: green;
+    border: 3px solid white;
+    background: red;
     color: white;
     font-size: 20px;
-    margin: 10px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    opacity: 
 }
 
 .number-display {
     padding: 10px;
-    background: orange;
+    background: gold;
+    border: 2px solid white;
+    color: blue;
     width: 20%;
     height: 100px;
     float: left;
@@ -37,7 +43,9 @@ h1 {
 
 .wins-losses {
     padding: 10px;
-    background: purple;
+    background: green;
+    border: 2px solid white;
+    color: white;
     width: 20%;
     height: 100px;
     float: left;
@@ -47,19 +55,22 @@ h1 {
 
 .stones {
     text-align: center;
-    margin-right: 16%;
+    margin-right: 5%;
 }
 
 img {
     max-width: 10%;
     max-height: 10%;
+    border: 2px solid white;
 }
 
 .userTotal {
     padding: 10px;
-    background: brown;
+    background: blue;
+    border: 2px solid white;
+    color: yellow;
     width: 20%;
     height: 100px;
     font-size: 30px;
-    margin: 10px;
+    margin: 15px;
 }
