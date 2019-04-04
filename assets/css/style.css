@@ -5,9 +5,9 @@ body {
 h1 {
     padding: 10px;
     width: 30%;
-    border: 2px solid white;
+    border: 2px solid gold;
     background: purple;
-    color: white;
+    color: gold;
     font-size: 40px;
     font-weight: bold;
     font-family: fantasy;
@@ -20,9 +20,9 @@ h1 {
 .instructions {
     padding: 10px;
     width: 80%;
-    border: 3px solid white;
-    background: red;
-    color: white;
+    border: 3px solid gold;
+    background: darkred;
+    color: yellow;
     font-size: 20px;
     margin-left: 10%;
     margin-bottom: 15px;
